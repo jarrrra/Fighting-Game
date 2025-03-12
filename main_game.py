@@ -1105,9 +1105,9 @@ def new_game(name, lang, round_count):
 
   if round_count == 0:
     if lang == 0:
-      print('Хотите попробовать снова?(да(д)/нет(н))')
+      print('Игра окончена! Хотите начать игру заново?(да(д)/нет(н))')
     else:
-      print('Do you want to try again?(yes(y)/no(n))')
+      print('Game end! Do you want to play again?(yes(y)/no(n))')
   else:
 
     if lang == 0:
